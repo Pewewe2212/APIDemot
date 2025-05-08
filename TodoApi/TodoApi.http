@@ -22,7 +22,6 @@ GET {{TodoApi_HostAddress}}/todoitems/1
 
 PUT {{TodoApi_HostAddress}}/todoitems/1
 Content-Type: application/json
-
 {
   "name": "feed fish",
   "isComplete": false
@@ -32,3 +31,4 @@ Content-Type: application/json
 DELETE {{TodoApi_HostAddress}}/todoitems/1
 
 ###
+

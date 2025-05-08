@@ -1,0 +1,31 @@
+﻿@APIHar2_HostAddress = https://localhost:7202
+
+POST {{APIHar2_HostAddress}}/Quests
+Content-Type: application/json
+
+{
+  “Name”: “Tuhoa rotat”,
+  “Description”:”Tapa 3 rottaa ja tuo nahat minulle.”,
+  “Reward”:50
+}
+###
+
+GET {{APIHar2_HostAddress}}/Quests
+Content-Type: application/json
+
+{
+  “name”: “Tuhoa rotat”,
+  “description”:”Tapa 3 rottaa ja tuo nahat minulle.”,
+  “reward”:50
+}
+###
+
+GET {{APIHar2_HostAddress}}/Quests/{id}
+Content-Type: application/json
+
+{
+  “name”: “Etsi Viljo”,
+  “description”:”Onkos Viljoo näkyny.”,
+  “reward”:100
+}
+###
